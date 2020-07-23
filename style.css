@@ -1,0 +1,64 @@
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+.main-container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+header,
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.isCurrent {
+    border-bottom: 5px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-container,
+.content-container {
+    padding-left: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    padding-left: 10px;
+    color: gray;
+}

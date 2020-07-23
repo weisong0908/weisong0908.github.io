@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Teng Wei Song</title>
+        <title>Teng Wei Song | About</title>
         <script
             src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
@@ -23,9 +23,25 @@
                     <a class="link" href="https://blog.tengweisong.com">Blog</a>
                 </nav>
             </header>
-            <div class="hero-container">
-                <p class="title">Hi, I'm Wei Song -</p>
-                <p class="title">I'm a .NET developer based in Singapore.</p>
+            <div class="content-container">
+                <article>
+                    <h1>About me</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores non a ea ullam adipisci quo
+                        explicabo commodi illum quia accusamus rerum, eveniet natus nesciunt eligendi vel perspiciatis.
+                        Similique, dicta nostrum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores non a ea ullam adipisci quo
+                        explicabo commodi illum quia accusamus rerum, eveniet natus nesciunt eligendi vel perspiciatis.
+                        Similique, dicta nostrum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores non a ea ullam adipisci quo
+                        explicabo commodi illum quia accusamus rerum, eveniet natus nesciunt eligendi vel perspiciatis.
+                        Similique, dicta nostrum.
+                    </p>
+                </article>
             </div>
             <footer>
                 <nav>
@@ -39,7 +55,9 @@
             </footer>
         </div>
         <script type="text/javascript">
-            $(document).ready(() => {});
+            $(document).ready(() => {
+                $(`[href='${window.location.pathname.replace(/\/+$/, "")}']`).addClass("isCurrent");
+            });
         </script>
     </body>
 </html>
