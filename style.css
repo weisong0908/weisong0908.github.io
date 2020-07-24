@@ -63,16 +63,41 @@ a:active {
     color: var(--accent-color-light);
 }
 
-.hero-container,
-.content-container {
+.hero-container {
     padding: 100px 10px;
+}
+
+.content-container {
+    padding: 30px 10px;
 }
 
 .hero-title {
     font-size: 3.5rem;
 }
 
+.page-title {
+    text-decoration: underline;
+}
+
 .footer-copyright {
     margin: 10px;
     color: var(--accent-color-neutral);
+}
+
+.content-competences-container {
+    display: flex;
+    margin: 1.5rem 0;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.content-competences-container > img {
+    height: 36px;
+    width: auto;
+}
+
+p {
+    max-width: 800px;
+    text-justify: inter-word;
+    line-height: 1.5rem;
 }
