@@ -1,60 +1,78 @@
-* {
+:root {
+    --accent-color-dark: #3c3c3c;
+    --accent-color-light: #fafafa;
+    --accent-color-neutral: #909090;
+
     font-family: "Rubik", sans-serif;
+    background-color: var(--accent-color-light);
+}
+
+::selection {
+    background-color: var(--accent-color-dark);
+    color: var(--accent-color-light);
+}
+
+::-moz-selection {
+    background-color: var(--accent-color-dark);
+    color: var(--accent-color-light);
 }
 
 .main-container {
-    padding-left: 40px;
-    padding-right: 40px;
+    margin: 0px 40px;
 }
 
 header,
 footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin: 20px 0px;
+}
+
+nav {
+    display: flex;
+    align-content: center;
 }
 
 a {
     padding: 10px;
-    font-size: 1rem;
+    margin-right: 10px;
+}
+
+a > img {
+    height: 20px;
+    width: auto;
 }
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: var(--accent-color-dark);
 }
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: var(--accent-color-dark);
 }
 
 .isCurrent {
-    border-bottom: 5px solid black;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-bottom: 3px solid var(--accent-color-dark);
 }
 
 a:hover,
 a:focus,
 a:active {
     text-decoration: none;
-    background-color: black;
-    color: white;
+    background-color: var(--accent-color-dark);
+    color: var(--accent-color-light);
 }
 
 .hero-container,
 .content-container {
-    padding-left: 10px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 10px;
 }
 
-.title {
-    font-size: 3rem;
+.hero-title {
+    font-size: 3.5rem;
 }
 
 .footer-copyright {
-    margin-top: 10px;
-    padding-left: 10px;
-    color: gray;
+    margin: 10px;
+    color: var(--accent-color-neutral);
 }
