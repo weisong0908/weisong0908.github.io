@@ -1,104 +1,104 @@
 :root {
-    --accent-color-dark: #3c3c3c;
-    --accent-color-light: #fafafa;
-    --accent-color-neutral: #909090;
+  --accent-color-dark: #3c3c3c;
+  --accent-color-light: #fafafa;
+  --accent-color-neutral: #909090;
 
-    font-family: "Rubik", sans-serif;
-    background-color: var(--accent-color-light);
+  font-family: "Rubik", sans-serif;
+  background-color: var(--accent-color-light);
 }
 
 ::selection {
-    background-color: var(--accent-color-dark);
-    color: var(--accent-color-light);
+  background-color: var(--accent-color-dark);
+  color: var(--accent-color-light);
 }
 
 ::-moz-selection {
-    background-color: var(--accent-color-dark);
-    color: var(--accent-color-light);
+  background-color: var(--accent-color-dark);
+  color: var(--accent-color-light);
 }
 
 .main-container {
-    margin: 0px 40px;
+  margin: 0px 40px;
 }
 
 header,
 footer {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 nav {
-    display: flex;
-    align-content: center;
+  display: flex;
+  align-content: center;
 }
 
 a {
-    padding: 10px;
-    margin-right: 10px;
+  padding: 10px;
+  margin-right: 10px;
 }
 
 a > img {
-    height: 20px;
-    width: auto;
+  height: 20px;
+  width: auto;
 }
 
 a:link {
-    text-decoration: none;
-    color: var(--accent-color-dark);
+  text-decoration: none;
+  color: var(--accent-color-dark);
 }
 
 a:visited {
-    text-decoration: none;
-    color: var(--accent-color-dark);
+  text-decoration: none;
+  color: var(--accent-color-dark);
 }
 
 .isCurrent {
-    border-bottom: 3px solid var(--accent-color-dark);
+  border-bottom: 3px solid var(--accent-color-dark);
 }
 
 a:hover,
 a:focus,
 a:active {
-    text-decoration: none;
-    background-color: var(--accent-color-dark);
-    color: var(--accent-color-light);
+  text-decoration: none;
+  background-color: var(--accent-color-dark);
+  color: var(--accent-color-light);
 }
 
 .hero-container {
-    padding: 100px 10px;
+  padding: 100px 10px;
 }
 
 .content-container {
-    padding: 30px 10px;
+  padding: 30px 10px;
 }
 
 .hero-title {
-    font-size: 3.5rem;
-    font-weight: normal;
+  font-size: 3.5rem;
+  font-weight: normal;
 }
 
 .page-title {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer-copyright {
-    margin: 10px;
-    color: var(--accent-color-neutral);
+  margin: 10px;
+  color: var(--accent-color-neutral);
 }
 
 .content-competences-container {
-    display: flex;
-    margin: 1.5rem 0;
-    width: 400px;
-    justify-content: space-between;
+  display: flex;
+  margin: 1.5rem 0;
+  width: 400px;
+  justify-content: space-between;
 }
 
 .content-competences-container > img {
-    height: 36px;
-    width: auto;
+  height: 36px;
+  width: auto;
 }
 
 p {
-    max-width: 800px;
-    text-justify: inter-word;
-    line-height: 1.5rem;
+  max-width: 800px;
+  text-justify: inter-word;
+  line-height: 1.5rem;
 }
