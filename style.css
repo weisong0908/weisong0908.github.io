@@ -2,6 +2,7 @@
   --accent-color-dark: #3c3c3c;
   --accent-color-light: #fafafa;
   --accent-color-neutral: #909090;
+  --accent-color-highlight: #ff8400;
 
   font-family: "Rubik", sans-serif;
   background-color: var(--accent-color-light);
@@ -76,6 +77,10 @@ a:active {
   font-weight: normal;
 }
 
+.hero-title:first-child {
+  font-weight: bold;
+}
+
 .page-title {
   text-decoration: underline;
 }
@@ -101,4 +106,20 @@ p {
   max-width: 800px;
   text-justify: inter-word;
   line-height: 1.5rem;
+}
+
+h3 {
+  text-indent: 0.5rem;
+  border-left: 0.25rem solid var(--accent-color-highlight);
+}
+
+span.caret {
+  border-right: 0.5rem solid var(--accent-color-highlight);
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }
