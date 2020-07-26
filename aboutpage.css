@@ -1,0 +1,12 @@
+.content-competences-container {
+  display: flex;
+  margin: 1.5rem 0;
+  width: inherit;
+  flex-wrap: wrap;
+}
+
+.content-competences-container > img {
+  width: 36px;
+  height: auto;
+  margin: 0px 6px;
+}

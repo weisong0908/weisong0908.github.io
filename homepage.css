@@ -1,0 +1,23 @@
+.hero-container {
+  padding: 100px 10px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+.hero-title:first-child {
+  font-weight: bold;
+}
+
+span.caret {
+  border-right: 0.5rem solid var(--accent-color-highlight);
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
