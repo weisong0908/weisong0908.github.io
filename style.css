@@ -1,10 +1,11 @@
 :root {
-  --accent-color-dark: #3c3c3c;
+  --accent-color-dark: #303030;
   --accent-color-light: #fafafa;
   --accent-color-neutral: #909090;
   --accent-color-highlight: #ff8400;
 
   font-family: "Rubik", sans-serif;
+  color: var(--accent-color-dark);
   background-color: var(--accent-color-light);
 }
 
