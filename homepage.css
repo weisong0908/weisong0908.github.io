@@ -21,3 +21,12 @@ span.caret {
     border-color: transparent;
   }
 }
+
+a.play-animation-btn {
+  padding: 0px;
+}
+
+a.play-animation-btn:hover {
+  background-color: var(--accent-color-neutral);
+  cursor: pointer;
+}
