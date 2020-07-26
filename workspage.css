@@ -1,0 +1,27 @@
+.project-summary {
+  color: var(--accent-color-neutral);
+}
+
+.tag-container {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.tag {
+  margin-right: 0.75rem;
+  padding: 0px 5px;
+  border-radius: 3px;
+  font-size: small;
+}
+
+.tag-framework {
+  background-color: rgb(175, 233, 141);
+}
+
+.tag-language {
+  background-color: rgb(141, 199, 233);
+}
+
+.tag-other {
+  background-color: rgb(230, 192, 161);
+}
