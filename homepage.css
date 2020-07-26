@@ -24,9 +24,11 @@ span.caret {
 
 a.play-animation-btn {
   padding: 0px;
+  color: var(--accent-color-neutral);
 }
 
 a.play-animation-btn:hover {
   background-color: var(--accent-color-neutral);
+  color: var(--accent-color-light);
   cursor: pointer;
 }

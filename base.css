@@ -80,12 +80,12 @@ a:active {
 
 p {
   max-width: 50rem;
-  text-justify: inter-word;
+  text-align: justify;
+
   line-height: 1.5rem;
 }
 
 h3 {
-  /* text-indent: 0.5rem; */
   padding-left: 0.5rem;
   border-left: 0.25rem solid var(--accent-color-highlight);
 }
