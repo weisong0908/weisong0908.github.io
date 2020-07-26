@@ -1,12 +1,12 @@
 .content-competences-container {
-  display: flex;
+  display: -webkit-inline-flex;
   margin: 1.5rem 0;
   width: inherit;
   flex-wrap: wrap;
 }
 
 .content-competences-container > img {
-  width: 36px;
-  height: auto;
+  height: 36px;
+  width: auto;
   margin: 0px 6px;
 }
