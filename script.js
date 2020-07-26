@@ -1,7 +1,9 @@
 $(document).ready(() => {
   const heroTitle1 = "Hi, I'm Wei Song";
 
-  animateText(heroTitle1, ".animate-text-1");
+  setTimeout(() => {
+    animateText(heroTitle1, ".animate-text-1");
+  }, 3000);
 });
 
 function animateText(title, selector) {
@@ -16,6 +18,6 @@ function typeWrite(text, selector, i) {
 
     setTimeout(function () {
       typeWrite(text, selector, i + 1);
-    }, 60);
+    }, 125);
   }
 }
