@@ -89,3 +89,14 @@ h3 {
   padding-left: 0.5rem;
   border-left: 0.25rem solid var(--accent-color-highlight);
 }
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th,
+td {
+  border: 0.1rem solid var(--accent-color-dark);
+  padding: 0.2rem;
+}
