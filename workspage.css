@@ -25,3 +25,7 @@
 .tag-other {
   background-color: rgb(243, 197, 178);
 }
+
+a.bordered {
+  border: 0.1rem solid var(--accent-color-dark);
+}
