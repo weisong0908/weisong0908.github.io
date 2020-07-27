@@ -4,7 +4,6 @@
 
 .tag-container {
   margin-top: 1rem;
-  display: flex;
 }
 
 .tag {
@@ -12,16 +11,17 @@
   padding: 0px 5px;
   border-radius: 3px;
   font-size: small;
+  display: inline;
 }
 
 .tag-framework {
-  background-color: rgb(175, 233, 141);
+  background-color: rgb(197, 219, 231);
 }
 
 .tag-language {
-  background-color: rgb(141, 199, 233);
+  background-color: rgb(181, 209, 181);
 }
 
 .tag-other {
-  background-color: rgb(230, 192, 161);
+  background-color: rgb(243, 197, 178);
 }
