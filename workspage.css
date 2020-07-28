@@ -7,9 +7,9 @@
 }
 
 .tag {
-  margin-right: 0.75rem;
-  padding: 0px 5px;
-  border-radius: 3px;
+  margin-right: 0.5rem;
+  padding: 0rem 0.25rem;
+  border-radius: 0.25rem;
   font-size: small;
   display: inline;
   border: 0.01rem solid var(--accent-color-neutral);
