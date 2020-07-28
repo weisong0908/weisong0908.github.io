@@ -25,6 +25,7 @@
 
 header,
 footer {
+  padding: 0rem 0.5rem;
   max-width: 51rem;
   margin: 0 auto;
 }
