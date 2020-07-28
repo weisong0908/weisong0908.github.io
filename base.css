@@ -67,6 +67,7 @@ a:active {
 
 .content-container {
   padding: 30px 10px;
+  max-width: 50rem;
 }
 
 .page-title {
@@ -79,24 +80,26 @@ a:active {
 }
 
 p {
-  max-width: 50rem;
   text-align: justify;
-
   line-height: 1.5rem;
 }
 
 h3 {
   padding-left: 0.5rem;
-  border-left: 0.25rem solid var(--accent-color-highlight);
+  border-left: 0.5rem solid var(--accent-color-highlight);
 }
 
 table {
   border-collapse: collapse;
-  text-align: left;
+  max-width: 50rem;
+  width: 100%;
+  table-layout: fixed;
 }
 
 th,
 td {
-  border: 0.1rem solid var(--accent-color-dark);
-  padding: 0.2rem;
+  border: 0.05rem solid var(--accent-color-dark);
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: top;
 }

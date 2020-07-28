@@ -8,3 +8,23 @@
   width: auto;
   margin: 0px 6px;
 }
+
+.position-duration-container {
+  display: flex;
+}
+
+.position-duration-container p {
+  margin: 0px;
+  padding: 0.2rem 0.5rem;
+  text-align: left;
+}
+
+.position-duration-container .position {
+  border: 0.05rem solid var(--accent-color-dark);
+  font-weight: bold;
+}
+
+.position-duration-container .duration {
+  border: 0.05rem solid var(--accent-color-dark);
+  margin-left: -0.04rem;
+}

@@ -12,20 +12,14 @@
   border-radius: 3px;
   font-size: small;
   display: inline;
-}
-
-.tag-framework {
-  background-color: rgb(197, 219, 231);
-}
-
-.tag-language {
-  background-color: rgb(181, 209, 181);
-}
-
-.tag-other {
-  background-color: rgb(243, 197, 178);
+  border: 0.01rem solid var(--accent-color-neutral);
+  color: var(--accent-color-neutral);
 }
 
 a.bordered {
-  border: 0.1rem solid var(--accent-color-dark);
+  border: 0.05rem solid var(--accent-color-dark);
+}
+
+.project-links {
+  margin: 1.25rem 0rem;
 }
