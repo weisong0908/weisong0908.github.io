@@ -40,9 +40,16 @@ a {
   margin-right: 0.5rem;
 }
 
-a > img {
-  height: 1.25rem;
+.site-logo {
+  padding: 0rem 0.25rem;
+  margin-left: 0.25rem;
+}
+
+.site-logo > img {
+  height: 1.75rem;
   width: auto;
+  position: relative;
+  top: 12%;
 }
 
 a:link {
