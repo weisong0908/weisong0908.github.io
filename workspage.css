@@ -23,3 +23,7 @@ a.bordered {
 .project-links {
   margin: 1.25rem 0rem;
 }
+
+.project-links a {
+  display: inline-block;
+}
