@@ -11,13 +11,15 @@
   padding: 0rem 0.25rem;
   border-radius: 0.25rem;
   font-size: small;
-  display: inline;
+  display: inline-block;
   border: 0.01rem solid var(--accent-color-neutral);
   color: var(--accent-color-neutral);
 }
 
-a.bordered {
+.project-links a.bordered {
   border: 0.05rem solid var(--accent-color-dark);
+  margin-top: 0.5rem;
+  margin-right: 0.25rem;
 }
 
 .project-links {
