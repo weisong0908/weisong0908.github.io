@@ -2,9 +2,9 @@
   <div class="main-container">
     <header>
       <nav>
-        <g-link class="site-logo" to="/"
-          ><img src="/favicon.png" alt="Home"
-        /></g-link>
+        <g-link class="site-logo" to="/">
+          <img src="/favicon.png" alt="Home" />
+        </g-link>
         <g-link to="/about/">About</g-link>
         <g-link to="/works/">Works</g-link>
         <a href="https://blog.tengweisong.com">Blog</a>
@@ -24,4 +24,6 @@
   </div>
 </template>
 
-<style></style>
+<style>
+@import "../assets/base.css";
+</style>
