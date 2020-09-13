@@ -25,41 +25,5 @@ export default {
 </script>
 
 <style>
-.hero-container {
-  padding: 2rem 1rem;
-  min-height: 35rem;
-  max-width: 50rem;
-  margin: 0 auto;
-}
-
-.hero-title {
-  font-size: 3.5rem;
-  font-weight: normal;
-}
-
-.hero-title:first-child {
-  font-weight: bold;
-}
-
-span.caret {
-  border-right: 0.5rem solid var(--accent-color-highlight);
-  animation: caret 1s steps(1) infinite;
-}
-
-@keyframes caret {
-  50% {
-    border-color: transparent;
-  }
-}
-
-a.play-animation-btn {
-  padding: 0rem;
-  color: var(--accent-color-neutral);
-}
-
-a.play-animation-btn:hover {
-  background-color: var(--accent-color-neutral);
-  color: var(--accent-color-light);
-  cursor: pointer;
-}
+@import "../assets/homepage.css";
 </style>

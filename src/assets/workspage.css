@@ -1,0 +1,31 @@
+.project-summary {
+  color: var(--accent-color-neutral);
+}
+
+.tag-container {
+  margin-top: 1rem;
+}
+
+.tag {
+  margin-right: 0.5rem;
+  padding: 0rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: small;
+  display: inline-block;
+  border: 0.01rem solid var(--accent-color-neutral);
+  color: var(--accent-color-neutral);
+}
+
+.project-links a.bordered {
+  border: 0.05rem solid var(--accent-color-dark);
+  margin-top: 0.5rem;
+  margin-right: 0.25rem;
+}
+
+.project-links {
+  margin: 1.25rem 0rem;
+}
+
+.project-links a {
+  display: inline-block;
+}

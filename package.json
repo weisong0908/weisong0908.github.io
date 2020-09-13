@@ -7,7 +7,6 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0",
-    "jquery": "^3.5.1"
+    "gridsome": "^0.7.0"
   }
 }
