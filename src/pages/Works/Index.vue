@@ -28,7 +28,37 @@
             Singapore. The website is built on Sitefinity CMS with various
             customisations that extend the basic out-of-the-box functions.
           </p>
-          <p><em>This project is currently under development.</em></p>
+          <div class="project-links">
+            <a class="bordered" href="https://www.mof.gov.sg"
+              >Visit the website</a
+            >
+          </div>
+          <br />
+          <h3>Open Innovation Network</h3>
+          <small class="project-summary">
+            Website for Open Innovation Network
+          </small>
+          <div class="tag-container">
+            <div class="tag tag-framework">
+              Sitefinity
+            </div>
+            <div class="tag tag-language">
+              C#
+            </div>
+          </div>
+          <p>
+            This project is a website for Open Innovation Network, the
+            collaboration set up by Enterprise Singapore and the Infocomm Media
+            Development Authority (IMDA) to provide a single gateway to the open
+            innovation ecosystem in Singapore. Similar to the above MOF project
+            above, this website is built on Sitefinity CMS with various
+            customisations that extend the basic out-of-the-box functions.
+          </p>
+          <div class="project-links">
+            <a class="bordered" href="https://www.openinnovationnetwork.gov.sg"
+              >Visit the website</a
+            >
+          </div>
           <br />
           <h3>Document Controller</h3>
           <small class="project-summary"
