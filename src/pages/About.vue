@@ -164,6 +164,21 @@
         </section>
         <br />
         <br />
+        <section>
+          <h2>Certificates</h2>
+          <h3>Certified ScrumMaster&copy;</h3>
+          <div class="position-duration-container">
+            <p class="position">
+              Scrum Alliance
+            </p>
+            <p class="duration">2021</p>
+          </div>
+          <p>
+            <g-image src="~/assets/seal-csm.png" alt="CSM" title="CSM seal" />
+          </p>
+        </section>
+        <br />
+        <br />
       </article>
     </main>
   </default-layout>
