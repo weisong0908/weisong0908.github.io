@@ -1,4 +1,6 @@
-$(document).ready(() => {
+import $ from "jquery";
+
+export default function () {
     const heroTitle1 = "Hi, I'm Wei Song -";
     const heroTitle2 = "I'm a web developer based in Singapore.";
 
@@ -31,7 +33,7 @@ $(document).ready(() => {
         clearTitles();
         animateText(heroTitle1, ".hero-title-1", 500);
     });
-});
+};
 
 function clearTitles() {
     $(".hero-title-1")
