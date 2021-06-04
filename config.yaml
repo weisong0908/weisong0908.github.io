@@ -9,12 +9,26 @@ menu:
     - identifier: about
       name: About
       url: /about
-      weight: 1
+      weight: 10
+    - identifier: works
+      name: Works
+      url: /works
+      weight: 20
     - identifier: posts
       name: Posts
       url: /posts
-      weight: 2
+      weight: 30
     - identifier: tags
       name: Tags
       url: /tags
-      weight: 2
+      weight: 40
+
+params:
+  homeInfoParams:
+    title: Hi, I am Wei Song
+    Content: --- A .NET developer based in Singapore.
+  socialIcons:
+    - name: github
+      url: https://github.com/weisong0908/
+    - name: linkedin
+      url: https://github.com/weisong0908/

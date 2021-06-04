@@ -6,7 +6,8 @@ author: Wei Song
 tags: [ "Notes" ]
 showReadingTime: true
 showBreadCrumbs: true
-ShowPostNavLinks: true
+showPostNavLinks: true
+showToc: true
 cover:
   image: https://dummyimage.com/600x400/ededed/4d4d4d # image path/url
   alt: cover image
