@@ -28,7 +28,9 @@ params:
     title: Hi, I am Wei Song
     Content: --- A .NET developer based in Singapore.
   socialIcons:
+    - name: email
+      url: mailto:hi@tengweisong.com?subject=Hi
     - name: github
       url: https://github.com/weisong0908/
     - name: linkedin
-      url: https://github.com/weisong0908/
+      url: https://www.linkedin.com/in/tengweisong/
