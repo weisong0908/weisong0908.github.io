@@ -1,7 +1,7 @@
 ---
-title: A Blog That's Real
+title: Blog
 description: "This is a fully featured blog that supports categories, tags, series, and pagination."
-author: The Team at Formspree
+author: Wei Song
 images:
   - https://via.placeholder.com/960x480?text=SECTION+IMAGE
 date: 2019-02-20T09:31:27-06:00
