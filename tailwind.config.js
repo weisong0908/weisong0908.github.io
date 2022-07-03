@@ -11,8 +11,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       sans: ["Zen Kaku Gothic Antique", "sans-serif"],
-      serif: ["Crimson Pro", "serif"],
-      mono: ["Inconsolata", "monospace"],
+      serif: ['"Crimson Pro"', "serif"],
     },
   },
   variants: {
