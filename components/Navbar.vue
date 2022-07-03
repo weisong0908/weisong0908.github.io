@@ -10,9 +10,9 @@
       <!-- <li>
         <NuxtLink to="/blogs" class="p-2 hover:bg-gray-200">Blogs</NuxtLink>
       </li> -->
-      <!-- <li>
+      <li>
         <NuxtLink to="/projects" class="p-2 hover:bg-gray-200">Projects</NuxtLink>
-      </li> -->
+      </li>
     </ul>
   </div>
 </template>

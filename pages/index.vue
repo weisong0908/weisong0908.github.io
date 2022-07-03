@@ -18,5 +18,6 @@ export default {
       title: 'Teng Wei Song | Home',
     };
   },
+
 };
 </script>

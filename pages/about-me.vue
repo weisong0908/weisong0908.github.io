@@ -20,18 +20,7 @@
         </div>
       </div>
       <div class="sm:w-2/3 text-justify">
-        <p>
-          My name is Teng Wei Song. I am currently working in Singapore as a full-time software developer who builds
-          both websites and web applications. As both <b>AWS Certified Solutions Architecture Associate</b> and
-          <b>ScrumAlliance Certified ScrumMaster</b>, I am not only able to code software products, but also provide web
-          solutions, design cloud architectures, and manage projects with Scrum.
-        </p>
-        <br />
-        <p>
-          My main skills in web development include building web backend using both .NET and Node.js frameworks as well
-          as frontend using Sitefinity, Vue.js, and Nuxt.js. C# and JavaScript/TypeScript are two programming languages
-          that I use. The myraid of skills that I possess allows me to be well-rounded and offer multiple ideas.
-        </p>
+        <nuxt-content :document="aboutMe"></nuxt-content>
         <br />
         <div class="flex flex-wrap flex-row gap-4 mt-4 items-center filter grayscale">
           <img class="h-6 sm:h-6 object-cover" src="~/static/c-sharp.png" alt="c-sharp" title="C#" />
@@ -58,5 +47,13 @@ export default {
       title: 'Teng Wei Song | About',
     };
   },
+
+  async asyncData ({ $content }) {
+    const aboutMe = await $content('/about-me').fetch();
+    console.log(aboutMe)
+    return {
+      aboutMe
+    }
+  }
 };
 </script>
