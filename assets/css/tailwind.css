@@ -11,6 +11,9 @@
     @apply bg-gray-100;
   }
   main {
-    @apply font-serif text-gray-800;
+    @apply text-gray-800;
+  }
+  ::selection {
+    @apply bg-gray-400 text-gray-100;
   }
 }

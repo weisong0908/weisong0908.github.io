@@ -10,24 +10,23 @@
               project.title
             }}</NuxtLink>
           </h2>
-          <p class="text-xs font-sans text-gray-100 my-1" v-if="project.type">
-            <span class="bg-gray-400 px-1 w-min">
-              {{ project.type }}
-            </span>
-          </p>
-          <p
-            class="flex flex-row gap-1 flex-wrap text-gray-400 text-xs font-sans my-1"
-            v-if="project.tags"
-          >
-            <span
-              v-for="tag of project.tags"
-              :key="tag.id"
-              class="border border-gray-400 px-1"
-              >{{ tag }}</span
-            >
-          </p>
           <p class="text-gray-500 italic" v-if="project.summary">
             {{ project.summary }}
+          </p>
+          <p class="text-xs font-sans my-1 flex flex-row gap-1 flex-wrap">
+            <span
+              class="border border-gray-400 bg-gray-400 px-1 w-min text-gray-100"
+              v-if="project.type"
+            >
+              {{ project.type }}
+            </span>
+            <span
+              v-if="project.tags"
+              v-for="tag of project.tags"
+              :key="tag"
+              class="border border-gray-400 px-1 text-gray-400"
+              >{{ tag }}</span
+            >
           </p>
         </li>
       </ul>

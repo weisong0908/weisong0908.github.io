@@ -46,12 +46,6 @@
           </li>
         </ul>
       </div>
-      <img
-        class="h-4 object-cover shadow-md mx-auto"
-        src="~/static/project_badge.png"
-        alt="project-badge"
-        title="Project #01"
-      />
     </div>
   </footer>
 </template>

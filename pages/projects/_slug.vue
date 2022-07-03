@@ -4,26 +4,26 @@
       <div class="mt-4">
         <NuxtLink
           to="/projects"
-          class="border border-gray-300 text-sm p-1 hover:bg-gray-200"
-          >&lt; back to Projects</NuxtLink
+          class="border border-gray-200 font-sans text-gray-400 text-xs p-1 hover:bg-gray-200"
+          >back to Projects</NuxtLink
         >
       </div>
       <br />
       <h1 class="text-3xl font-normal border-b border-gray-400">{{ title }}</h1>
       <p class="text-gray-500 italic">{{ summary }}</p>
-      <p class="my-1 text-gray-100 text-sm font-sans" v-if="type">
-        <span class="bg-gray-400 px-1 w-min">
+
+      <p class="text-xs font-sans my-1 flex flex-row gap-1 flex-wrap">
+        <span
+          class="border border-gray-400 bg-gray-400 px-1 w-min text-gray-100"
+          v-if="type"
+        >
           {{ type }}
         </span>
-      </p>
-      <p
-        class="flex flex-row gap-1 flex-wrap my-1 text-gray-400 text-sm font-sans"
-        v-if="tags"
-      >
         <span
+          v-if="tags"
           v-for="tag of tags"
-          :key="tag.id"
-          class="border border-gray-400 px-1"
+          :key="tag"
+          class="border border-gray-400 px-1 text-gray-400"
           >{{ tag }}</span
         >
       </p>
