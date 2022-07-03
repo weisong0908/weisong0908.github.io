@@ -3,22 +3,15 @@
     <div v-if="slug">
       <div class="mt-4">
         <NuxtLink
-          to="/projects"
+          to="/notes"
           class="border border-gray-200 font-sans text-gray-400 text-xs p-1 hover:bg-gray-200"
-          >back to Projects</NuxtLink
+          >back to Notes</NuxtLink
         >
       </div>
       <br />
       <h1 class="text-3xl font-normal border-b border-gray-400">{{ title }}</h1>
       <p class="text-gray-500 italic">{{ summary }}</p>
-
       <p class="text-xs font-sans my-1 flex flex-row gap-1 flex-wrap">
-        <span
-          class="border border-gray-400 bg-gray-400 px-1 w-min text-gray-100"
-          v-if="type"
-        >
-          {{ type }}
-        </span>
         <span
           v-if="tags"
           v-for="tag of tags"
@@ -26,6 +19,12 @@
           class="border border-gray-400 px-1 text-gray-400"
           >{{ tag }}</span
         >
+      </p>
+      <p class="text-gray-500 italic">
+        Published at {{ createdAt | datetime }}
+      </p>
+      <p class="text-gray-500 italic">
+        Last updated at {{ updatedAt | datetime }}
       </p>
       <br />
       <nuxt-content :document="{ body: body }"></nuxt-content>
@@ -39,7 +38,7 @@
       <br />
     </div>
     <div v-else>
-      <p class="bg-yellow-100">Project not found</p>
+      <p class="bg-yellow-100">Note not found</p>
     </div>
   </div>
 </template>
@@ -48,21 +47,23 @@
 export default {
   head() {
     return {
-      title: "Teng Wei Song | Projects | " + this.title,
+      title: "Teng Wei Song | Notes | " + this.title,
     };
   },
 
   async asyncData({ $content, params }) {
     const { slug } = params;
-    const { title, order, summary, type, tags, body } = await $content(
-      `/projects/${slug}`
-    ).fetch();
+    const { title, createdAt, summary, type, tags, body, updatedAt } = await $content(
+      `/notes/${slug}`
+    )
+      .fetch();
 
     return {
       slug,
       body,
       title,
-      order,
+      createdAt,
+      updatedAt,
       summary,
       type,
       tags,

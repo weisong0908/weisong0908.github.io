@@ -7,12 +7,12 @@
       <li>
         <NuxtLink to="/about-me" class="p-2 hover:bg-gray-200">About Me</NuxtLink>
       </li>
-      <!-- <li>
-        <NuxtLink to="/blogs" class="p-2 hover:bg-gray-200">Blogs</NuxtLink>
-      </li> -->
       <li>
         <NuxtLink to="/projects" class="p-2 hover:bg-gray-200">Projects</NuxtLink>
       </li>
+        <li>
+          <NuxtLink to="/notes" class="p-2 hover:bg-gray-200">Notes</NuxtLink>
+        </li>
     </ul>
   </div>
 </template>
