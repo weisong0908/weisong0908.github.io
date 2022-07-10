@@ -1,17 +1,4 @@
 /*!
-  * vue-router v3.5.4
-  * (c) 2022 Evan You
-  * @license MIT
-  */
-
-/*!
- * Vue.js v2.7.0
- * (c) 2014-2022 Evan You
- * Released under the MIT License.
- */
-
-
-/*!
  * vue-client-only v0.0.0-semantic-release
  * (c) 2021-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
@@ -36,3 +23,16 @@
 //! moment.js locale configuration
 
 //! version : 0.5.34
+
+
+/*!
+  * vue-router v3.5.4
+  * (c) 2022 Evan You
+  * @license MIT
+  */
+
+/*!
+ * Vue.js v2.7.0
+ * (c) 2014-2022 Evan You
+ * Released under the MIT License.
+ */
