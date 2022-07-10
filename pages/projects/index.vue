@@ -10,7 +10,7 @@
               project.title
             }}</NuxtLink>
           </h2>
-          <p class="text-gray-500 italic" v-if="project.summary">
+          <p class="text-gray-500 text-sm" v-if="project.summary">
             {{ project.summary }}
           </p>
           <p class="text-xs font-sans my-1 flex flex-row gap-1 flex-wrap">

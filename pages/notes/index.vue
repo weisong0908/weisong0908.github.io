@@ -8,7 +8,7 @@
           <h2 class="font-bold">
             <NuxtLink :to="`/notes/${note.slug}`">{{ note.title }}</NuxtLink>
           </h2>
-          <p class="text-gray-500 italic" v-if="note.summary">
+          <p class="text-gray-500 text-sm" v-if="note.summary">
             {{ note.summary }}
           </p>
           <p class="text-xs font-sans my-1 flex flex-row gap-1 flex-wrap">

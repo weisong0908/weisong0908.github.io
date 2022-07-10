@@ -9,12 +9,11 @@
         >
       </div>
       <br />
-      <h1 class="text-3xl font-normal border-b border-gray-400">{{ title }}</h1>
-      <p class="text-gray-500 italic">{{ summary }}</p>
-
-      <p class="text-xs font-sans my-1 flex flex-row gap-1 flex-wrap">
+      <h1 class="text-3xl font-normal text-center">{{ title }}</h1>
+      <p class="text-gray-500 text-sm text-center">{{ summary }}</p>
+      <p class="text-xs font-sans my-1 text-center">
         <span
-          class="border border-gray-400 bg-gray-400 px-1 w-min text-gray-100"
+          class="border border-gray-400 bg-gray-400 px-1 ml-1 text-gray-100"
           v-if="type"
         >
           {{ type }}
@@ -23,7 +22,7 @@
           v-if="tags"
           v-for="tag of tags"
           :key="tag"
-          class="border border-gray-400 px-1 text-gray-400"
+          class="border border-gray-400 px-1 ml-1 text-gray-400"
           >{{ tag }}</span
         >
       </p>
