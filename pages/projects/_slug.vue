@@ -71,19 +71,25 @@ export default {
 </script>
 
 <style>
+.nuxt-content {
+  @apply space-y-4;
+}
 .nuxt-content h1 {
-  @apply text-2xl font-bold;
+  @apply pt-2 text-2xl font-bold;
 }
 .nuxt-content h2 {
-  @apply text-xl font-bold;
+  @apply pt-1 text-xl font-bold;
 }
 .nuxt-content h3 {
   @apply text-lg font-bold;
 }
-.nuxt-content pre {
-  @apply overflow-x-scroll bg-gray-200 p-4;
-}
 .nuxt-content a {
   @apply underline hover:no-underline;
+}
+.nuxt-content ol {
+  @apply list-decimal;
+}
+.nuxt-content ul {
+  @apply list-disc;
 }
 </style>
