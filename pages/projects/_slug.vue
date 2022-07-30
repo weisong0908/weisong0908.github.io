@@ -11,6 +11,7 @@
       <br />
       <h1 class="text-3xl font-normal text-center">{{ title }}</h1>
       <p class="text-gray-500 text-sm text-center">{{ summary }}</p>
+      <br />
       <p class="text-xs font-sans my-1 text-center">
         <span
           class="border border-gray-400 bg-gray-400 px-1 ml-1 text-gray-100"

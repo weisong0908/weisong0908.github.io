@@ -11,6 +11,7 @@
       <br />
       <h1 class="text-3xl font-normal text-center">{{ title }}</h1>
       <p class="text-gray-500 text-sm text-center">{{ summary }}</p>
+      <br />
       <p class="text-xs font-sans my-1 text-center">
         <span
           v-if="tags"
@@ -53,10 +54,8 @@ export default {
 
   async asyncData({ $content, params }) {
     const { slug } = params;
-    const { title, createdAt, summary, type, tags, body, updatedAt } = await $content(
-      `/notes/${slug}`
-    )
-      .fetch();
+    const { title, createdAt, summary, type, tags, body, updatedAt } =
+      await $content(`/notes/${slug}`).fetch();
 
     return {
       slug,
@@ -89,9 +88,9 @@ export default {
   @apply underline hover:no-underline;
 }
 .nuxt-content ol {
-  @apply list-decimal;
+  @apply list-decimal list-inside;
 }
 .nuxt-content ul {
-  @apply list-disc;
+  @apply list-disc list-inside;
 }
 </style>
