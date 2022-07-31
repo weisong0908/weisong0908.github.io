@@ -73,7 +73,7 @@ export default {
 
 <style>
 .nuxt-content {
-  @apply space-y-4;
+  @apply space-y-4 text-justify;
 }
 .nuxt-content h1 {
   @apply pt-2 text-2xl font-bold;
