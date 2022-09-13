@@ -4,6 +4,7 @@ summary: Prepare a package that includes only the changed files between two comm
 publishDate: 2022-07-03 16:20:25+08:00
 draft: false
 tags: [Git]
+ep: 1
 ---
 
 More often than not when we prepare deployment packages we need to remember the files that we have created from a couple of commits back and the process is often tedious and prone to human error. Fortunately the process can be automated with a single Git command:

@@ -4,6 +4,7 @@ summary: How to protect .NET 6 API resources by implementing access control usin
 publishDate: 2022-07-31 18:00:00+08:00
 draft: false
 tags: [.NET, Auth0, Authentication, Authorisation]
+ep: 2
 ---
 
 For web applications built with .NET, the default choice for authentication and authorisation that comes to our minds would be Identity Server which will be deprecated after November 2022. An alternative is to make use of established SAAS like Auth0. This saves us a lot of time and effort from security patching and maintenance.
