@@ -1,7 +1,7 @@
 ---
 title: AM Buddy App
 summary: Mobile app for SingHealth
-order: 4
+order: 5
 type: Backend
 tags: [Node.js, Javascript, Strapi]
 ---

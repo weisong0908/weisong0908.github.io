@@ -1,7 +1,7 @@
 ---
 title: Ministry of Finance
 summary: Website for Ministry of Finance (MOF)
-order: 1
+order: 2
 type: Website
 tags: [.NET, Sitefinity, C#]
 ---
