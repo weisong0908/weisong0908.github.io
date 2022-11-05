@@ -3,17 +3,15 @@
     <h1 class="text-3xl">Notes</h1>
     <br />
     <div>
-      <ul class="flex flex-row space-x-8">
-        <li class="note-item w-max-72" v-for="note of notes" :key="note.slug">
-          <p class="text-gray-400 text-sm">Episode {{ note.ep }}</p>
+      <ul class="flex flex-col space-y-4">
+        <li v-for="note of notes" :key="note.slug">
+          <p class="text-gray-400 text-sm">Note {{ note.ep }}</p>
           <h2 class="text-lg">
             <NuxtLink :to="`/notes/${note.slug}`">{{ note.title }}</NuxtLink>
           </h2>
-          <br />
           <p class="text-gray-500 text-sm" v-if="note.summary">
             {{ note.summary }}
           </p>
-          <br />
           <p class="text-xs font-sans my-1 flex flex-row space-x-1 flex-wrap">
             <span
               v-if="note.tags"
