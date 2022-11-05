@@ -5,7 +5,7 @@
     <div>
       <ul class="flex flex-col space-y-4">
         <li v-for="project of projects" :key="project.slug">
-          <h2 class="font-bold">
+          <h2 class="text-lg">
             <NuxtLink :to="`/projects/${project.slug}`">{{
               project.title
             }}</NuxtLink>
